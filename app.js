@@ -102,3 +102,25 @@ console.log(b);
 // comments in js 
 // 1 - //
 // 2 - /*   */
+
+// Conditional expression (if ,else)
+
+let a = prompt("hey ! whats your age");
+a = Number.parseInt(a);
+// console.log(a)
+if(a >= 18){
+    alert("Now you are ready to take ride ")
+}
+else if(a <= 9 && a >= 6){
+    alert("your are kid take candy and enjoy");
+}
+else if (a <= 1){
+    alert("golu molu")
+}
+else if(a <=5 && a>= 2 ){
+    alert("play with toy")
+
+}
+else{
+    alert("you are not able tp take ride ")
+}
