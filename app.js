@@ -68,11 +68,11 @@ console.log(b);
 // &&=	    x &&= y	    x = x && (x = y)
 // ||=	    x ||= y	    x = x || (x = y)
 
-let x = 5;
-let y = 6;
- console.log(x < 6 && x == 5)
- console.log(x > 6 || x == 5)
- console.log(!true)
+// let x = 5;
+// let y = 6;
+//  console.log(x < 6 && x == 5)
+//  console.log(x > 6 || x == 5)
+//  console.log(!true)
 
 
 
