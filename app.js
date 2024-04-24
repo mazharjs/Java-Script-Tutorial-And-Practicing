@@ -124,3 +124,6 @@ else if(a <=5 && a>= 2 ){
 else{
     alert("you are not able tp take ride ")
 }
+// turnary operator 
+
+console.log("you can", a > 30? "not drive":"drive")
