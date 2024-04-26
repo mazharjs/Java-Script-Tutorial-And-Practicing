@@ -105,25 +105,83 @@ console.log(b);
 
 // Conditional expression (if ,else)
 
-let a = prompt("hey ! whats your age");
-a = Number.parseInt(a);
+// let a = prompt("hey ! whats your age");
+// a = Number.parseInt(a);
 // console.log(a)
-if(a >= 18){
-    alert("Now you are ready to take ride ")
-}
-else if(a <= 9 && a >= 6){
-    alert("your are kid take candy and enjoy");
-}
-else if (a <= 1){
-    alert("golu molu")
-}
-else if(a <=5 && a>= 2 ){
-    alert("play with toy")
+// if(a >= 18){
+//     alert("Now you are ready to take ride ")
+// }
+// else if(a <= 9 && a >= 6){
+//     alert("your are kid take candy and enjoy");
+// }
+// else if (a <= 1){
+//     alert("golu molu")
+// }
+// else if(a <=5 && a>= 2 ){
+//     alert("play with toy")
 
-}
-else{
-    alert("you are not able tp take ride ")
-}
-// turnary operator 
+// }
+// else{
+//     alert("you are not able tp take ride ")
+// }
+// // turnary operator 
 
-console.log("you can", a > 30? "not drive":"drive")
+// console.log("you can", a > 30? "not drive":"drive")
+
+
+
+// Switch case conditional expression in java script 
+
+
+
+// let month = prompt("Enter month Number from 1 to 12")
+// month = Number.parseInt(month);
+// switch (month) {
+//     case 1:
+//         document.write("Janurary");
+//         break;
+//     case 2:
+//         document.write("Feburary");
+//         break;
+//     case 3:
+//         document.write("March");
+//         break;
+//     case 4:
+//         document.write("Aprial");
+//         break;
+//     case 5:
+//         document.write("May");
+//         break;
+//     case 6:
+//         document.write("June");
+//         break;
+//     case 7:
+//         document.write("july");
+//         break;
+//     case 8:
+//         document.write("august");
+//         break;
+//     case 9:
+//         document.write("September");
+//         break;
+//     case 10:
+//         document.write("Octuber");
+//         break;
+//     case 11:
+//         document.write("November");
+//         break;
+//         case 12:
+//         document.write("December");
+//         break;
+//     default:
+//         alert("Please Enter valid age from 1 to 12. Beacuse MOnth are 12")
+//         break;
+// }
+
+// using turnay operator
+
+let age = prompt("enter your age ")
+
+age = Number.parseInt(age);
+age = age >=18? "you can drive":"you can't drive";
+console.log(age)
