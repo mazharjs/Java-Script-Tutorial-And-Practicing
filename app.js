@@ -180,8 +180,8 @@ console.log(b);
 
 // using turnay operator
 
-let age = prompt("enter your age ")
+// let age = prompt("enter your age ")
 
-age = Number.parseInt(age);
-age = age >=18? "you can drive":"you can't drive";
-console.log(age)
+// age = Number.parseInt(age);
+// age = age >=18? "you can drive":"you can't drive";
+// console.log(age)
