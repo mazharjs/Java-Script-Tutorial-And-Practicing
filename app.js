@@ -185,3 +185,17 @@ console.log(b);
 // age = Number.parseInt(age);
 // age = age >=18? "you can drive":"you can't drive";
 // console.log(age)
+
+
+// Loops IN js 
+
+
+// for loooooooooooooooop;
+
+// let n = prompt("enter number")
+// n = Number.parseInt(n)
+
+// for (let i = 0; i <= n; i++) {
+//  console.log(i)
+    
+// }
