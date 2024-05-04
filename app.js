@@ -196,6 +196,52 @@ console.log(b);
 // n = Number.parseInt(n)
 
 // for (let i = 0; i <= n; i++) {
-//  console.log(i)
+//  console.log("mazhar",i)
+
+// }
+
+
+// For In loops 
+
+// let obj = {
+//     mazhar : "90",
+//     ahmed : "100",
+//     Afnan : "110",
+//     attique : "120"
+// }
+
+// console.log(obj.mazhar, obj);
+// console.log(obj.ahmed);
+// console.log(obj.Afnan);
+// console.log(obj.attique);
+
+
+// for(let key in obj){
+//     console.log(key + " ; " + obj[key] )
+// }
+
+// For In loops 
+// let name = "mazhar";
+// let array = ["1", "2", "3", "4", "5"]
+// for (let a of array) {
+//     console.log(a);
+// }
+
+// while loops in JS
+
+// let i = 0;
+// while (i < 10) {
+//     console.log(i);
+//     i++;
     
 // }
+
+// do  while looop in js 
+// let i = 11
+// do {
+// console.log(i)
+// i++
+
+// }while(i < 10)
+
+
