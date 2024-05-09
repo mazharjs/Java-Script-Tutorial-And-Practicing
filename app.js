@@ -208,6 +208,15 @@ console.log(b);
 
 // }
 
+// Even odd Node. program. 
+
+
+for(a = 1 ; a<=100 ;a++){
+ if(a % 2 != 0){
+    console.log(a);
+ }
+}
+
 
 // For In loops 
 
@@ -323,22 +332,23 @@ console.log(b);
 
 // object in JS
 
-let obj = {
-    firstName: "Mazhar",
-    lastName: "Ahmed",
-    age: 18,
-    country: "pakistan",
-    obj1: {
-        mazhar: 30,
-        ahmed: 40,
-        ayaz: 3
-    },
-    mazhar: ["mazhar", 8, "atiq", "afnan"],
-    func: function sum(x, y) {
-        return x + y;
-    }
-}
-console.log(obj);
-console.log(obj.age);
-console.log(obj.obj1)
-console.log(obj.func(2,3))
+// let obj = {
+//     firstName: "Mazhar",
+//     lastName: "Ahmed",
+//     age: 18,
+//     country: "pakistan",
+//     obj1: {
+//         mazhar: 30,
+//         ahmed: 40,
+//         ayaz: 3
+//     },
+//     mazhar: ["mazhar", 8, "atiq", "afnan"],
+//     func: function sum(x, y) {
+//         return x + y;
+//     }
+// }
+// console.log(obj);
+// console.log(obj.age);
+// console.log(obj.obj1)
+// console.log(obj.func(2,3))
+
