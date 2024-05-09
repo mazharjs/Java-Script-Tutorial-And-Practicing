@@ -103,7 +103,11 @@ console.log(b);
 // 1 - //
 // 2 - /*   */
 
+
+
 // Conditional expression (if ,else)
+
+
 
 // let a = prompt("hey ! whats your age");
 // a = Number.parseInt(a);
@@ -130,7 +134,9 @@ console.log(b);
 
 
 
+
 // Switch case conditional expression in java script 
+
 
 
 
@@ -178,6 +184,8 @@ console.log(b);
 //         break;
 // }
 
+
+
 // using turnay operator
 
 // let age = prompt("enter your age ")
@@ -216,9 +224,11 @@ console.log(b);
 // console.log(obj.attique);
 
 
+
 // for(let key in obj){
 //     console.log(key + " ; " + obj[key] )
 // }
+
 
 // For In loops 
 // let name = "mazhar";
@@ -227,7 +237,9 @@ console.log(b);
 //     console.log(a);
 // }
 
+
 // while loops in JS
+
 
 // let i = 0;
 // while (i < 10) {
@@ -245,3 +257,65 @@ console.log(b);
 // }while(i < 10)
 
 
+
+// function  in java script 
+// let a = 3;
+// let b = 4;
+
+// function sum(x, y) {
+//     console.log(arguments);
+//     return (x + y);
+// }
+
+// sum();
+// console.log(sum(a ,b));
+
+// function onePlusAvg(x, y) {
+//  return Math.round(1 + (x +y )/2)   
+// }
+// let c = onePlusAvg(a, b);
+
+// console.log("the value of one plus avg of a and b is ",c);
+
+// Arrow funstion in js 
+
+// const hello = () =>{
+//     // console.log(arguments)
+//     console.log("Hellow how are you doing toady")
+// }
+// hello();
+
+// let marks = {
+//     mazhar : "90",
+//     Ayaz : "40",
+//     Afnan : "4"
+// }
+
+// for(key in marks){
+//     console.log("the number of " + key+ " are " + marks[key]);
+// }
+
+// let cr = 3;
+// let a ;
+// while(a != cr){
+//     a = prompt("enter a Correct number")
+//     a= Number.parseInt(a)
+//     console.log(a);
+   
+// }
+// console.log("you enter a correct no.", cr);
+
+// const mean =(a,b,c,d)=>{
+//     return (a+b+c+d)/4
+// }
+
+//  console.log(mean(3,4,5,6));
+
+// Strings In detail 
+
+let name = "mazh\"ar"
+let name1 = 'mazha\'r'
+let name2 = `ahme\`d`
+console.log(name, name1, name2);
+
+console.log(`${name} is a friend \n \t of ${name2}`);
