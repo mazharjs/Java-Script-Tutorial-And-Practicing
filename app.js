@@ -245,7 +245,7 @@ console.log(b);
 // while (i < 10) {
 //     console.log(i);
 //     i++;
-    
+
 // }
 
 // do  while looop in js 
@@ -301,7 +301,7 @@ console.log(b);
 //     a = prompt("enter a Correct number")
 //     a= Number.parseInt(a)
 //     console.log(a);
-   
+
 // }
 // console.log("you enter a correct no.", cr);
 
@@ -313,9 +313,32 @@ console.log(b);
 
 // Strings In detail 
 
-let name = "mazh\"ar"
-let name1 = 'mazha\'r'
-let name2 = `ahme\`d`
-console.log(name, name1, name2);
+// let name = "mazh\"ar"
+// let name1 = 'mazha\'r'
+// let name2 = `ahme\`d`
+// console.log(name, name1, name2);
 
-console.log(`${name} is a friend \n \t of ${name2}`);
+// console.log(`${name} is a friend \n \t of ${name2}`);
+
+
+// object in JS
+
+let obj = {
+    firstName: "Mazhar",
+    lastName: "Ahmed",
+    age: 18,
+    country: "pakistan",
+    obj1: {
+        mazhar: 30,
+        ahmed: 40,
+        ayaz: 3
+    },
+    mazhar: ["mazhar", 8, "atiq", "afnan"],
+    func: function sum(x, y) {
+        return x + y;
+    }
+}
+console.log(obj);
+console.log(obj.age);
+console.log(obj.obj1)
+console.log(obj.func(2,3))
