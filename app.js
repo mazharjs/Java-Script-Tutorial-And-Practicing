@@ -422,27 +422,49 @@ console.log(b);
 
 // object in JS
 
-let obj = {
-    firstName: "Mazhar",
-    lastName: "Ahmed",
-    age: 18,
-    country: "pakistan",
-    obj1: {
-        mazhar: 30,
-        ahmed: 40,
-        ayaz: 3
-    },
+// let obj = {
+//     firstName: "Mazhar",
+//     lastName: "Ahmed",
+//     age: 18,
+//     country: "pakistan",
+//     obj1: {
+//         mazhar: 30,
+//         ahmed: 40,
+//         ayaz: 3
+//     },
 
-    mazhar: ["mazhar", 8, "atiq", "afnan"],
-    func: function sum(x, y) {
-        return x + y;
-    }
-}
+//     mazhar: ["mazhar", 8, "atiq", "afnan"],
+//     func: function sum(x, y) {
+//         return x + y;
+//     }
+// }
+
+// console.log(typeof obj);
 // console.log(obj);
 // console.log(obj.age);
 // console.log(obj.obj1)
 // console.log(obj.func(2,3))
 
-for( key in obj){
-   console.log(obj[key]);
+// for( key in obj){
+//    console.log(obj[key]);
+// }
+
+
+
+
+// Array in java cript 
+
+
+let array = ["mazhar", 2, 3, 4, true, null, undefined]
+// console.log(array);
+// console.log(array[0]);
+// console.log(array[1]);
+// console.log(array[2]);
+// console.log(array[3]);
+// console.log(array[4]);
+// console.log(array[5]);
+// console.log(array[6]);
+
+for(key of array ){
+   console.log(array[key]);
 }
