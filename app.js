@@ -89,8 +89,12 @@ console.log(b);
 // <	    less than	     if (age < 18)
 
 
+
 // let a = 5;
 // let b = "5";
+
+
+
 
 // console.log("a == b =", a==b);
 // console.log("a == b =", a!=b);
@@ -106,6 +110,7 @@ console.log(b);
 
 
 // Conditional expression (if ,else)
+
 
 
 
@@ -130,12 +135,22 @@ console.log(b);
 // }
 // // turnary operator 
 
+
+
+
 // console.log("you can", a > 30? "not drive":"drive")
 
 
 
 
+
+
+
+
+
+
 // Switch case conditional expression in java script 
+
 
 
 
@@ -186,6 +201,7 @@ console.log(b);
 
 
 
+
 // using turnay operator
 
 // let age = prompt("enter your age ")
@@ -195,7 +211,23 @@ console.log(b);
 // console.log(age)
 
 
+
+
+
+
+
+
+
+
+
+
 // Loops IN js 
+
+
+
+
+
+
 
 
 // for loooooooooooooooop;
@@ -239,7 +271,24 @@ console.log(b);
 // }
 
 
+
+
+
+
+
+
+
 // For In loops 
+
+
+
+
+
+
+
+
+
+
 // let name = "mazhar";
 // let array = ["1", "2", "3", "4", "5"]
 // for (let a of array) {
@@ -320,7 +369,18 @@ console.log(b);
 
 //  console.log(mean(3,4,5,6));
 
+
+
+
+
+
+
+
+
 // Strings In detail 
+
+
+
 
 // let name = "mazh\"ar"
 // let name1 = 'mazha\'r'
@@ -330,26 +390,59 @@ console.log(b);
 // console.log(`${name} is a friend \n \t of ${name2}`);
 
 
+// console.log("maz\"q".length);
+
+// const sentence = 'The quick brown fox jumps over the lazy dog.';
+
+// const word = 'fox';
+// console.log(sentence.includes(word));
+// console.log(
+//   `The word ${word} ${
+//     sentence.includes(word) ? 'is' : 'is not'
+//   } in the sentence`,
+// );
+
+// console.log(word.toUpperCase());
+// console.log(word.toLowerCase());
+
+// let str = "the age of old lady is 80";
+// let age = str.slice(23);
+// // or 
+// let age = str.slice("the age of old lady is ".length);
+
+// console.log(age);
+
+// let maz = "mazhar "
+// console.log(maz[3 ]);
+
+
+
+
+
+
 // object in JS
 
-// let obj = {
-//     firstName: "Mazhar",
-//     lastName: "Ahmed",
-//     age: 18,
-//     country: "pakistan",
-//     obj1: {
-//         mazhar: 30,
-//         ahmed: 40,
-//         ayaz: 3
-//     },
-//     mazhar: ["mazhar", 8, "atiq", "afnan"],
-//     func: function sum(x, y) {
-//         return x + y;
-//     }
-// }
+let obj = {
+    firstName: "Mazhar",
+    lastName: "Ahmed",
+    age: 18,
+    country: "pakistan",
+    obj1: {
+        mazhar: 30,
+        ahmed: 40,
+        ayaz: 3
+    },
+
+    mazhar: ["mazhar", 8, "atiq", "afnan"],
+    func: function sum(x, y) {
+        return x + y;
+    }
+}
 // console.log(obj);
 // console.log(obj.age);
 // console.log(obj.obj1)
 // console.log(obj.func(2,3))
 
-console.log("maz\"q".length);
+for( key in obj){
+   console.log(obj[key]);
+}
