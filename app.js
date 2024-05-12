@@ -211,11 +211,11 @@ console.log(b);
 // Even odd Node. program. 
 
 
-for(a = 1 ; a<=100 ;a++){
- if(a % 2 != 1){
-    console.log(a);
- }
-}
+// for(a = 1 ; a<=100 ;a++){
+//  if(a % 2 != 1){
+//     console.log(a);
+//  }
+// }
 
 
 // For In loops 
@@ -352,3 +352,4 @@ for(a = 1 ; a<=100 ;a++){
 // console.log(obj.obj1)
 // console.log(obj.func(2,3))
 
+console.log("maz\"q".length);
