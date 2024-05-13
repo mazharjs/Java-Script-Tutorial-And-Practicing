@@ -502,12 +502,20 @@ console.log(b);
 
 // console.log(array2);
 // console.log(array2.length);
+let compare = (a,  b)=>{
+    return b- a;
+}
+let arr = [311, 2, 6, 6, 7, 8, 9, 2111, 1] //arrange in "alphabethicly' order and also  return length
+// arr.sort(compare)
+// console.log(arr);
 
-let arr = [3, 2, 6, 6, 7, 8, 9, 2, 1] //arrange in order and also  return length
-arr.sort()
+// let arr2 = ["ayaz", "ahmed ","aaaaa", "arisha"]
+// arr2.sort(compare)
+// console.log(arr2);
+
+// arr.reverse();
+
+// splice and slice array method 
+
+arr.splice(0, 2, 1000,2000,3000)
 console.log(arr);
-
-let arr2 = ["ayaz", "ahmed ","aaaaa", "arisha"]
-arr2.sort()
-console.log(arr2);
-
