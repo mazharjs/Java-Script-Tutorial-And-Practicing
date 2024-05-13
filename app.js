@@ -455,16 +455,59 @@ console.log(b);
 // Array in java cript 
 
 
-let array = ["mazhar", 2, 3, 4, true, null, undefined]
-// console.log(array);
+// let array = ["mazhar", 2, 3, 4, true,]
+// console.log(array.lenght);
 // console.log(array[0]);
 // console.log(array[1]);
 // console.log(array[2]);
 // console.log(array[3]);
 // console.log(array[4]);
-// console.log(array[5]);
+// console.log(array[5]); 
 // console.log(array[6]);
+// console.log(array[7]);
 
-for(key of array ){
-   console.log(array[key]);
-}
+// for(let i = 0;i < array.length ; i++){
+//    console.log(array[i]);
+// }
+
+// array[7] = 4;
+//  console.log(array);
+
+// let b =array.toString()
+// console.log(typeof b);
+
+// console.log(array.join("+")); // add sign between an array
+
+// console.log(array.pop()); // emove an array from last
+
+// console.log(array.push("mazhar")); // add an arrray at last
+
+// console.log(array.shift()); // remove an array from first
+
+// console.log(array.unshift("mahzar")); // add an arrray at first also return array length
+
+// console.log();
+// console.log(array);
+
+// let array2 = [1, 2, 3, 4, 5, 6]
+// let array3 = [11, 12, 13, 14, 15, 16]
+
+//  let new_array = array.concat(array2,array3) //join two array and also return length
+
+// console.log(new_array);
+// console.log(array2.length);
+
+
+// delete array2[0] //delete is an operator not a method and dont chnage length
+
+// console.log(array2);
+// console.log(array2.length);
+
+let arr = [3, 2, 6, 6, 7, 8, 9, 2, 1] //arrange in order and also  return length
+arr.sort()
+console.log(arr);
+
+let arr2 = ["ayaz", "ahmed ","aaaaa", "arisha"]
+arr2.sort()
+console.log(arr2);
+
