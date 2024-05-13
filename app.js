@@ -505,7 +505,7 @@ console.log(b);
 let compare = (a,  b)=>{
     return b- a;
 }
-let arr = [311, 2, 6, 6, 7, 8, 9, 2111, 1] //arrange in "alphabethicly' order and also  return length
+// let arr = [311, 2, 6, 6, 7, 8, 9, 2111, 1] //arrange in "alphabethicly' order and also  return length
 // arr.sort(compare)
 // console.log(arr);
 
@@ -517,5 +517,18 @@ let arr = [311, 2, 6, 6, 7, 8, 9, 2111, 1] //arrange in "alphabethicly' order an
 
 // splice and slice array method 
 
-arr.splice(0, 2, 1000,2000,3000)
-console.log(arr);
+// arr.splice(0, 2, 1000,2000,3000)
+// let newarr = arr.slice(0, 4)
+// console.log(newarr);
+// console.log(arr);
+
+
+// let narr= [1, 2,3,"mazhar", true]
+// narr.forEach((value, i)=>{
+// console.log(i + " :"+ value + ".");
+// })
+
+// let num =[1,2,3,4,5]
+// num.forEach((value)=>{
+//     console.log( value * value );
+// })
