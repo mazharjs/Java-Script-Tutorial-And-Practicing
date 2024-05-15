@@ -523,12 +523,17 @@ let compare = (a,  b)=>{
 // console.log(arr);
 
 
-// let narr= [1, 2,3,"mazhar", true]
-// narr.forEach((value, i)=>{
-// console.log(i + " :"+ value + ".");
-// })
+let narr= [1, 2,3,"mazhar", true]
+narr.forEach((value, i)=>{
+console.log(i + " :"+ value + ".");
+})
 
 // let num =[1,2,3,4,5]
 // num.forEach((value)=>{
 //     console.log( value * value );
 // })
+
+let name = "mazhar"
+let arr = Array.from(name);
+
+console.log(arr);
