@@ -523,17 +523,35 @@ let compare = (a,  b)=>{
 // console.log(arr);
 
 
-let narr= [1, 2,3,"mazhar", true]
-narr.forEach((value, i)=>{
-console.log(i + " :"+ value + ".");
-})
+// let narr= [1, 2,3,"mazhar", true]
+// narr.forEach((value, i)=>{
+// console.log(i + " :"+ value + ".");
+// })
 
 // let num =[1,2,3,4,5]
 // num.forEach((value)=>{
 //     console.log( value * value );
 // })
 
-let name = "mazhar"
-let arr = Array.from(name);
+// let name = "mazhar"
+// let arr = Array.from(name);
 
-console.log(arr);
+// console.log(arr);
+
+// Map method in java script
+
+// let num =[1,2,3,4,5]                             //it return new array 
+//  let newArr = num.map((value, index, array)=>{
+    // console.log(value , index, array);
+    // return (value + index)
+    // })
+    //  console.log(newArr);
+
+
+    // filter method in java script
+
+    // let num =[1,3,3,4,5]   
+    // let newarr = num.filter((a)=>{
+    //     return a <= 3
+    // })
+    // console.log(newarr);
