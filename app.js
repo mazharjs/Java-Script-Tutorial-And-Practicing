@@ -555,3 +555,12 @@ let compare = (a,  b)=>{
     //     return a <= 3
     // })
     // console.log(newarr);
+
+
+    // rduce method method in java script       
+
+//     let num =[1,3,3,4,5]              //it reduce array in single value
+//     let newNum = num.reduce((h1 , h2, h3)=>{
+// return h1 + h2 ;
+//     })
+// console.log(newNum);
